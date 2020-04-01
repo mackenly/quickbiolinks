@@ -14,7 +14,7 @@ Follow this [Firebase guide](https://firebase.google.com/docs/hosting) to learn 
 ### Learn About Firebase Hosting (Video)
 <img src="https://img.youtube.com/vi/meofoNuK3vo/0.jpg" height=250px>
 
-[Watch the video](https://youtu.be/vt5fpE0bzSY)
+[Watch the video](https://www.youtube.com/watch?v=meofoNuK3vo)
 
 ## Users
 [Mackenly Jones - @mackenlyjones](https://links.mackenly.com/)
