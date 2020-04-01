@@ -12,7 +12,9 @@ You can find the bio link templates in the [templates directory](https://github.
 Follow this [Firebase guide](https://firebase.google.com/docs/hosting) to learn how to deploy your site to Firebase hosting. The free plan allows 1 GB of files and 10 GB/month transfer.
 
 ### Learn About Firebase Hosting (Video)
-<img src="https://img.youtube.com/vi/meofoNuK3vo/0.jpg" href="https://www.youtube.com/watch?v=meofoNuK3vo" height=250px>
+<img src="https://img.youtube.com/vi/meofoNuK3vo/0.jpg" height=250px>
+
+[Watch the video](https://youtu.be/vt5fpE0bzSY)
 
 ## Users
 [Mackenly Jones - @mackenlyjones](https://links.mackenly.com/)
