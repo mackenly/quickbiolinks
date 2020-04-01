@@ -2,16 +2,15 @@
  QuickBioLinks Is A Template For Creating Your Own Instagram bio Link
 
 ## Project
-More coming soon...
+You can find the bio link templates in the [templates directory](https://github.com/mackenly/quickbiolinks/tree/master/templates).
+
+**Simple Template Screenshot:**
 
 <img src="readme-images/simple-phone.png" height="300">
 
 ## Installation
 Host for free on Firebase: 
 https://firebase.google.com/docs/hosting
-<br>
-<br>
-More info coming soon...
 
 ## Users
 [Mackenly Jones - @mackenlyjones](https://links.mackenly.com/)
