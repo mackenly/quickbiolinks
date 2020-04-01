@@ -14,7 +14,7 @@ https://firebase.google.com/docs/hosting
 More info coming soon...
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see the contribution guide first.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see the [contribution guide](https://github.com/mackenly/quickbiolinks/blob/master/CONTRIBUTING.md) first.
 
 ## License
 [GNU General Public License v3.0](https://github.com/mackenly/quickbiolinks/blob/master/LICENSE)
