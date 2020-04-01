@@ -9,11 +9,12 @@ You can find the bio link templates in the [templates directory](https://github.
 <img src="readme-images/simple-phone.png" height="300">
 
 ## Installation
-Host for free on Firebase: 
-https://firebase.google.com/docs/hosting
+Follow this [Firebase guide](https://firebase.google.com/docs/hosting) to learn how to deploy your site to Firebase hosting. The free plan allows 1 GB of files and 10 GB/month transfer.
 
 ## Users
 [Mackenly Jones - @mackenlyjones](https://links.mackenly.com/)
+
+<br>*Using one of our templates? Add your name and link!*
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see the [contribution guide](https://github.com/mackenly/quickbiolinks/blob/master/CONTRIBUTING.md) first. Fast load speeds are a must. Shoot for a 95+ Page Speed Insights Score.
