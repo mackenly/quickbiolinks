@@ -83,4 +83,6 @@ h6{
     margin-bottom: 20px;
     color: rgb(136, 136, 136);
     font-family: var(--font);
+    margin-bottom: 20px;
+    padding: 17px;
 }
