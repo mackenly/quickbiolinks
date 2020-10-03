@@ -25,4 +25,4 @@ Follow this [Firebase guide](https://firebase.google.com/docs/hosting) to learn 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see the [contribution guide](https://github.com/mackenly/quickbiolinks/blob/master/CONTRIBUTING.md) first. Fast load speeds are a must. Shoot for a 95+ Page Speed Insights Score.
 
 ## License
-[GNU General Public License v3.0](https://github.com/mackenly/quickbiolinks/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/mackenly/quickbiolinks/blob/master/LICENSE)
