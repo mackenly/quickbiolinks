@@ -4,17 +4,22 @@
 ## Project
 You can find the bio link templates in the [templates directory](https://github.com/mackenly/quickbiolinks/tree/master/templates).
 
-**Simple Template Screenshot:**
+**Simple Template:**
 
-<img src="readme-images/simple-phone.png" height="300">
+<img src="readme-images/simple-phone.png" alt="Screenshot of Simple template." height="300">
 
-## Installation
-Follow this [Firebase guide](https://firebase.google.com/docs/hosting) to learn how to deploy your site to Firebase hosting. The free plan allows 1 GB of files and 10 GB/month transfer.
+[Simple Template](templates/simple/index.html)
 
-### Learn About Firebase Hosting (Video)
-<img src="https://img.youtube.com/vi/meofoNuK3vo/0.jpg" height=250px>
+**Simple Gravatar Dynamic Template:**
 
-[Watch the video](https://www.youtube.com/watch?v=meofoNuK3vo)
+<img src="readme-images/simple-gravatar-dynamic-phone.jpg" alt="Screenshot of Simple Gravatar Dynamic Phone template." height="300">
+
+[Simple Gravatar Dynamic Template](templates/simple-gravatar-dynamic/README.md)
+
+## Hosting
+Host your Quick Bio Link page using a free tier or low cost service by following our help [hosting guides](HOSTING.md).
+
+Quick Bio Link pages are simple HTML, CSS, and JavaScript pages which means that they can be hosted nearly anywhere with free and low cost options.
 
 ## Users
 [Mackenly Jones - @mackenlyjones](https://links.mackenly.com/)
@@ -22,7 +27,7 @@ Follow this [Firebase guide](https://firebase.google.com/docs/hosting) to learn 
 <br>*Using one of our templates? Add your name and link!*
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see the [contribution guide](https://github.com/mackenly/quickbiolinks/blob/master/CONTRIBUTING.md) first. Fast load speeds are a must. Shoot for a 95+ Page Speed Insights Score.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please see the [contribution guide](https://github.com/mackenly/quickbiolinks/blob/master/CONTRIBUTING.md) first. Fast load speeds are a must. Shoot for a 95+ Page Speed Insights Score. Plus, dynamic content is always a benefit.
 
 ## License
 [GNU General Public License v3.0](https://github.com/mackenly/quickbiolinks/blob/master/LICENSE)
