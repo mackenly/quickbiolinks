@@ -17,5 +17,25 @@ In your learning efforts you should focus on these areas;
   - Your PR will then be code reviewed, to provide some positive feedback on how to improve or in areas that can be changed to avoid code errors.
   - Your PR may then be approved, and merged in.
   - Celebrate your hard work! :tada:
+
+# Test Your Changes
+
+When making a pull request describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+
+Testing should involve:
+- [ ] Page Speed Insights
+- [ ] Lighthouse Test
+- [ ] If template is dynamic test data
+
+Do you have a demo hosted anywhere that can be visited?
+
+# Final Checklist:
+
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have added (or updated) documentation for users to use the template
+- [ ] I have made corresponding changes to the documentation (follow existing syntax)
+- [ ] My changes generate no warnings or errors
  
  ## Thank you for considering to contribute to the QuickBioLinks!
