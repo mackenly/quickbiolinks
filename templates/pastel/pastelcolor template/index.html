@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Your Name | QuickBioLink</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="icon" id="favicon" href="images/favicon.png" type="image/x-icon" />
+    </head>
+    <body>
+        <script>
+            // Set your name
+            var displayName = "Your Name Hi";
+
+            // Set your profession or job
+            var profession = "Your Job";
+
+            // Hide the credit link at the bottom
+            var disableCredit = false;
+
+            // Your profile picture
+            // Note: you can store an image in the /images folder and link to it or an external URL
+            var profilePicURL = "images/profile.jpg";
+
+            // Set your links:
+            // The title is the label of the link.
+            // The URL is that url the link will lead to
+            // The Icon is the class used to identify the Font Awesome icon used
+            // See this page for Font Awesome classes: https://fontawesome.com/v4.7/cheatsheet/ 
+            var linkOneTitle = "Github";
+            var linkOneURL = "https://github.com/";
+            var linkOneIcon = "fa fa-github";
+
+            var linkTwoTitle = "LinkedIn";
+            var linkTwoURL = "https://linkedin.com/";
+            var linkTwoIcon = "fa fa-linkedin";
+
+            var linkThreeTitle = "Website";
+            var linkThreeURL = "https://example.com/";
+            var linkThreeIcon = "fa fa-globe";
+
+            var linkFourTitle = "Email";
+            var linkFourURL = "mailto:hello@example.com";
+            var linkFourIcon = "fa fa-envelope";
+
+            var linkFiveTitle = "Twitter";
+            var linkFiveURL = "https://twitter.com/";
+            var linkFiveIcon = "fa fa-twitter";
+
+            // Don't worry about any of the rest of this file unless you need to change the HTML or Javascript...
+        </script>
+        <div id="profile"></div>
+        <div id="links">
+            <a class="link" href="#" target="_blank" rel="noopener" id="linkOne">
+                <i class="" id="iconOne"></i>
+            </a>
+            <a class="link" href="#" target="_blank" rel="noopener" id="linkTwo">
+                <i class="" aria-hidden="true" id="iconTwo"></i>
+            </a>
+            <a class="link" href="#" target="_blank" rel="noopener" id="linkThree">
+                <i class="" aria-hidden="true" id="iconThree"></i>
+            </a>
+            <a class="link" href="#" target="_blank" rel="noopener" id="linkFour">
+                <i class="" aria-hidden="true" itemref="iconFour"></i>
+            </a>
+            <a class="link" href="#" target="_blank" rel="noopener" id="linkFive">
+                <i class="" aria-hidden="true" id="iconFive"></i>
+            </a>
+        </div>
+        <p id="credit"></p>
+        <script>
+            // Update page with variables
+            document.querySelector("title").innerHTML = displayName + " | Link Page";
+            document.getElementById("profile").innerHTML = "<img id='userPhoto' src='" + profilePicURL + "' alt='" + displayName + "'s Profile Picture'><div id='userName'><h1 id='usersName'>" + displayName + "</h1><p id='usersProfession'>" + profession + "</p></div>"
+            document.getElementById("favicon").href = profilePicURL;
+
+            document.getElementById("linkOne").href = linkOneURL;
+            document.getElementById("linkOne").innerHTML = "<i class='" + linkOneIcon + "' id='iconOne'></i> " + linkOneTitle;
+
+            document.getElementById("linkTwo").href = linkTwoURL;
+            document.getElementById("linkTwo").innerHTML = "<i class='" + linkTwoIcon + "' id='iconTwo'></i> " + linkTwoTitle;
+
+            document.getElementById("linkThree").href = linkThreeURL;
+            document.getElementById("linkThree").innerHTML = "<i class='" + linkThreeIcon + "' id='iconThree'></i> " + linkThreeTitle;
+
+            document.getElementById("linkFour").href = linkFourURL;
+            document.getElementById("linkFour").innerHTML = "<i class='" + linkFourIcon + "' id='iconFour'></i> " + linkFourTitle;
+
+            document.getElementById("linkFive").href = linkFiveURL;
+            document.getElementById("linkFive").innerHTML = "<i class='" + linkFiveIcon + "' id='iconFive'></i> " + linkFiveTitle;
+
+            // Disable credit text based on settings
+            if (disableCredit == true) {
+                document.getElementById("credit").style = "display: none;"
+            } else {
+                document.getElementById("credit").innerHTML = "<a rel='noopener' href='https://github.com/mackenly/quickbiolinks' target='_blank'>Built with QuickBioLinks</a>"
+            }
+        </script>
+    </body>
+</html>
