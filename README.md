@@ -10,11 +10,13 @@ You can find the bio link templates in the [templates directory](https://github.
 
 [Simple Template](templates/simple/index.html)
 
-**Simple Gravatar Dynamic Template:**
+**Simple Dynamic Templates:**
 
 <img src="readme-images/simple-gravatar-dynamic-phone.jpg" alt="Screenshot of Simple Gravatar Dynamic Phone template." height="300">
 
 [Simple Gravatar Dynamic Template](templates/simple-gravatar-dynamic/README.md)
+
+[Simple CloudFlare Dynamic Template](templates/simple-cloudflare-dynamic/README.md)
 
 ## Hosting
 Host your Quick Bio Link page using a free tier or low cost service by following our help [hosting guides](HOSTING.md).
