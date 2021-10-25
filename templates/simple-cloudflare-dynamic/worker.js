@@ -120,11 +120,6 @@ addEventListener("fetch", (event) => {
                   margin-right: auto;
               }
       
-              li img {
-                  vertical-align: baseline;
-                  width: 24px;
-              }
-      
               li p {
                   display: block;
                   color: white;
@@ -134,7 +129,7 @@ addEventListener("fetch", (event) => {
                   margin-left: 6px;
               }
       
-              a {
+              li a, #credit a {
                   text-decoration: none;
                   color: inherit;
               }
