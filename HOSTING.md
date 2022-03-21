@@ -1,8 +1,8 @@
 # Hosting Quick Bio Links
 Quick Bio Link pages are entirely self hosted. But there are many free tier and low cost options available for hosting your page. Below you'll find a few common options. Not seeing your preferred host? Create a tutorial and PR or create na issue to request a tutorial be made.
 
-## CloudFlare Pages
-TODO: Write cloudflare pages tutorial.
+## Cloudflare Pages
+Cloudflare Pages allows you to deploy sites to the edge. The [free tier includes](https://pages.cloudflare.com/#pricing) unlimited sites, requests, and bandwidth. [Learn how to get started](https://developers.cloudflare.com/pages/get-started/) and [how to deploy static sites](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/).
 
 ## Digital Ocean App Platform
 Digital Ocean's app platform allows you to deploy 3 static sites for free. When changes are made to a GitHub repository it automatically redeploys making it an excellent free option for hosting Quick Bio Link pages.
