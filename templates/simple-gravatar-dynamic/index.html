@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <meta id="ogDesc" property="og:description" content="My social and web links." />
     <meta id="themeColor" name="theme-color" content="#000000">
 </head>
+
 <body>
     <script>
         // EDIT SETTINGS HERE:
@@ -55,7 +57,7 @@
         * If useEmojiIcon is true, the list item icon will be whatever emoji (or other text) is in the emojiIcon field.
         */
         const customLinks = {
-            "links":[
+            "links": [
                 {
                     "label": "GitHub - @mackenly",
                     "url": "https://github.com/mackenly/",
@@ -87,9 +89,9 @@
         var userProfile;
 
         // Get information from gravatar:
-        fetch( 'https://en.gravatar.com/' + emailAddress + '.json' )
-            .then( response => response.json() )
-            .then( response => {
+        fetch('https://en.gravatar.com/' + emailAddress + '.json')
+            .then(response => response.json())
+            .then(response => {
                 userProfile = response["entry"][0];
                 // Uncomment below to see what all data you can use:
                 //console.log(userProfile)
@@ -132,10 +134,10 @@
                 }
                 document.getElementById("socials").innerHTML = "<ul>" + socialsFill + "</ul>";
                 document.getElementById("credit").style = "display: inherit;"
-        } ).catch((error) => {
-            // Only network error comes here
-            document.getElementById("loading").innerHTML = "Error: Unable to get Gravatar data."
-            document.getElementById("credit").style = "display: none;"
+            }).catch((error) => {
+                // Only network error comes here
+                document.getElementById("loading").innerHTML = "Error: Unable to get Gravatar data."
+                document.getElementById("credit").style = "display: none;"
             });
 
         // Disable credit text based on settings
@@ -163,7 +165,8 @@
             width: initial;
         }
 
-        h1, #loading {
+        h1,
+        #loading {
             color: white;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
@@ -235,4 +238,5 @@
         }
     </style>
 </body>
+
 </html>
