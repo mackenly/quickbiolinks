@@ -1,0 +1,53 @@
+<!--Here is mostly like of everything you need to customize based on how do you like, you can also modify the particles by modify the app.js.-->
+<!--Created by Mihaidev-Cloud 2023 :3-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Here</title>
+    <meta property="og:title" content="Your Name's Links" />
+    <meta property="og:site_name" content="yourdomain.com" />
+    <meta property="og:description" content="A list of Your Name's most important links." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/console.js"></script>
+    <script async defer src="https://cdn.tailwindcss.com"></script>
+    <meta name="theme-color" content="var(--bgColor)">
+</head>
+<body>
+    <!--Page Content, Don't forget to modify!-->
+<div class="box p-24 flex flex-col justify-center items-center ">
+    <img id="userPhoto" class="w-32 rounded-xl border " src="images/profile-picture.webp" alt="Your Name's Photo">
+   <div class="boxt-text flex flex-col justify-center items-center mt-8">
+  <!--Title and paragraph-->
+    <h1 class="">Your Name</h1>
+    <p>Front-end Webdeveloper</p>
+ <!--Socials for icons please refer to icons.getbootstrap.com for icons.-->
+    <div class="socials space-x-2 text-2xl mt-4 ">
+    <button id="social"><a id="sociallink" href=""><i class="bi bi-instagram"></i></a></button>
+    <button id="social"><a id="sociallink" href=""><i class="bi bi-github"></i></a></button>
+    <button id="social"><a id="sociallink" href=""><i class="bi bi-telegram"></i></a></button>
+</div>   
+<!-- You can add many links you want but don't forget to change grid-cols number in exact number of links you have!-->
+ <div  class=" mt-6 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3  ">
+    <button id="btnglass"><a class="link" href="https://domain.com/" target="_blank"><i class="bi bi-link-45deg"></i> First Link</a></button> 
+    <button id="btnglass"><a class="link" href="https://domain.com/" target="_blank"><i class="bi bi-link-45deg"></i> Web </a></button> 
+    <button id="btnglass"><a class="link" href="mailto:youremailaddres@email.com" target="_blank"><i class="bi bi-envelope"></i> Email me</a></button> 
+
+    
+    
+
+     
+    </div>
+</div>
+
+       <!--Optional Attribution Repo Link-->
+       <footer class="space-y-4 mt-2"><a class="atrib " href="https://github.com/mackenly/quickbiolinks">Built With QuickBioLinks ❤️</a></footer>
+</div>
+<div id="particles-js"></div>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
