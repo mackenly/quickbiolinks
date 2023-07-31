@@ -26,6 +26,12 @@ You can find the bio link templates in the [templates directory](https://github.
 
 [Simple CloudFlare Dynamic Template](templates/simple-cloudflare-dynamic/README.md)
 
+**Glass Modern Template:**
+
+<img src="readme-images/glass-modern-image.png" alt="Screenshot of Glass Modern template." height="300">
+
+[Glass Modern Template:](templates/glass-modern/readme.md)
+
 ## Hosting
 
 Host your Quick Bio Link page using a free tier or low cost service by following our help [hosting guides](HOSTING.md).
