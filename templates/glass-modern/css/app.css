@@ -1,0 +1,132 @@
+/* Attention!
+This is the style of the template
+be careful what are you modify, this could result in 
+affecting the styling of the template
+Created by Mihaidev-Cloud :3 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root {
+    --bgColor:#0e0e0f;
+    --accentColor: #E6E6E6;
+    --bold-h1:900;
+    --bold-p:200;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-josefin: 'Josefin Sans', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2rem;
+}
+
+canvas {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -10;
+    visibility: visible;
+    }
+
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+h1 {
+    font-family: var(--font-inter);
+    font-weight: var(--bold-h1) !important;
+}
+
+body {
+    font-weight: var(--bold-p);
+    font-family: var(--font-poppins);
+background-color: var(--bgColor); /* background color */
+color: var(--accentColor); /* text color */
+}
+
+.atrib {
+    font-family: var(--font-josefin);
+    font-weight: var(--bold-p);
+    transition: 0.3s;
+}
+
+.atrib:hover {
+    color: red !important;
+}
+
+#social {
+    transition: 0.3s;
+}
+
+#social:hover {
+    transition: 0.3s;
+    padding: 1rem;
+}
+
+#sociallink {
+    transition: 0.3s;
+}
+
+#sociallink:hover {
+    color: gray;
+}
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: space-between;
+    transform: translate(-50%,-50%);
+    background: rgba(93, 86, 86, 0);
+box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#btnglass {
+    transition: 0.3s;
+   padding: 0.5rem;
+    background: rgba(93, 86, 86, 0);
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#btnglass:hover {
+    padding: 1rem;
+     background: rgba(93, 86, 86, 0.473);
+    
+ }
+
+@media screen and (max-width:820px) {
+    .box {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        justify-content: space-between;
+        transform: translate(-50%,-50%);
+        background: rgba(93, 86, 86, 0);
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+}
