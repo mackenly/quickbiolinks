@@ -35,18 +35,15 @@
         * To tell gravatar where to look for your data you must provide a MD5 hash of your
         * primary email address. To hash your email you can use something like:
         * https://www.md5hashgenerator.com/ (not verified for security)
-        * 
-        * OR you can just enter your email below. For security purposes you may rather enter a hash
-        * of your email instead. Note, that if you use the hash method you should set showEmailLink to false.
         */
-        var emailAddress = "hello@example.com";
+        var emailMd5Hash = "cb8419c1d471d55fbca0d63d1fb2b6ac";
 
         /*
         * Choose to show an email link button at the end of the link list.
-        * Note, if you use an MD5 hash rather than plaintext email in emailAddress 
-        * you should disable this option.
+        * Set the email address to use in the emailAddress variable below.
         */
         var showEmailLink = true;
+        var emailAddress = "hello@example.com";
 
         /*
         * Create Custom Links
@@ -89,7 +86,7 @@
         var userProfile;
 
         // Get information from gravatar:
-        fetch('https://en.gravatar.com/' + emailAddress + '.json')
+        fetch('https://en.gravatar.com/' + emailMd5Hash + '.json')
             .then(response => response.json())
             .then(response => {
                 userProfile = response["entry"][0];

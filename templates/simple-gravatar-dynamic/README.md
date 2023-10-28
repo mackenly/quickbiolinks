@@ -23,13 +23,10 @@ This template is highly customizable. Changes can be made two ways. First, throu
 
 **Variable Options:**
 - Disable Credit - By default this template shows a small link to the Github repo at the bottom of the page. You can disable this link by setting the disableCredit boolean to true.
-- Email Address/Email Hash - You have two options for getting data from Gravatar. You can send your email address (requires delivering your email in plaintext to the client) or you can send your email as an MD5 hash (if you use this option you should disable the showEmailLink see below). 
 
-    The email you use or hash must be the primary email associated with your Gravatar account.
+- Email Hash - To get data from Gravatar you can send your email as an MD5 hash. The email you use or hash must be the primary email associated with your Gravatar account.
 
-    If you choose to use your plain email simply replace it into the emailAddress variable. If you use the hash place it into the emailAddress variable.
-
-- Email Link - If you opted to include your email in the option above you can show an email contact button on your link list. This button will be a mailto link to the email specified in the emailAddress variable. If you used the hash of your email address you should disable this option by setting the boolean variable showEmailLink to false.
+- Email Link - If you opted to include your email in the option above you can show an email contact button on your link list. This button will be a mailto link to the email specified in the emailAddress variable.
 
 - Custom Links - You can hard code in links to appear after links brought in from Gravatar but before the email button. To do so add them into the object contained in customLinks.
 
